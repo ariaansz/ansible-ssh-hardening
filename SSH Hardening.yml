@@ -2,4 +2,4 @@
 - name: wrapper playbook for kitchen testing "ansible-ssh-hardening" with default settings
   hosts: all
   roles:
-    - ansible-ssh-hardening
+    - { role: . }
